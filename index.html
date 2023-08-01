@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/hahahahhaha.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Jokenpo</h1>
+        <div class="cards">
+            <div class="card">
+                <div class="card-title">
+                    <h2>Pedra</h2>
+                </div>
+                <img src="img/pedra.png" alt="">
+                <div class="fodase"><input id="Pedra" type="radio" name="vsf" value="Jogar"></div>
+            </div>
+            <div class="card">
+                <div class="card-title">
+                    <h2>Papel</h2>
+                </div>
+                <img src="img/papel.png" alt="">
+                <div class="fodase"><input id="Papel" type="radio" name="vsf" value="Jogar"></div>
+            </div>
+            <div class="card">
+                <div class="card-title">
+                    <h2>Tesoura</h2>
+                </div>
+                <img src="img/tesoura.png" alt="">
+                <div class="fodase"><input id="Tesoura" type="radio" name="vsf" value="Jogar"></div>
+            </div>
+        </div>
+    </div>
+    <section>
+        <div class="meio">
+            <div class="wua">
+                <button onclick="jogar()">Jogar</button>
+                <button onclick="reset()">Reset</button>
+            </div>
+        </div>
+        <div id="ganhador" class="ganhador">
+            
+        </div>
+        <div class="container">
+            <div id="jogadaJogador"></div>
+            <div><img id="jogadaBot" src="img/sinal-de-interrogacao.png" alt=""></div>
+            <div class="x"><img src="img/claro.png" alt=""></div>
+            
+        </div>
+    </section>
+   
+</body>
+
+</html>

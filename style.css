@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.container {
+    padding: 0 2%;
+    margin: 0 auto;
+    padding-top: 20px;
+
+}
+
+.container h1 {
+    font-size: 45px;
+    text-align: center;
+    color: red;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    text-align: center;
+    width: 30%;
+}
+
+.card-title {
+    height: 30px;
+    margin: 0;
+}
+
+.card img {
+    height: 300px;
+}
+
+.fodase input[type=radio] {
+    border: 2px solid blue;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    vertical-align: middle;
+}
+
+section>.container {
+    padding: 5%;
+    height: 200px;
+    width: 800px;
+    text-align: center;
+}
+
+section>.container img{
+    height: 70px;
+}
+
+.meio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wua {
+    display: inline-block;
+    text-align: center;
+}
+
+button {
+    margin: 15px;
+    padding: 10px 20px;
+    width: 150px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+#jogadaBot{
+    float: right;
+}
+
+.ganhador{
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+}
